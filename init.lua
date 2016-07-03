@@ -70,7 +70,7 @@ minetest.register_node(":angledwalls:angled_wall"..itm.."_" .. color, {
 	drawtype = "mesh",
 	mesh = "angled_wall.obj",
 	is_ground_content = false,
-	groups = {choppy = 2, oddly_breakable_by_hand = 2,cracky = 2},
+	groups = {choppy = 2, oddly_breakable_by_hand = 2,cracky = 2, not_in_creative_inventory = 1},
 	sounds = default.node_sound_wood_defaults(),
 })
 
